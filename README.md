@@ -170,11 +170,7 @@ LayerShift/
 │
 ├── README.md
 └── .gitignore
-```
 
-*Note: Adjust this structure to match the actual repository directories and filenames.*
-
----
 
 ## ⚙️ Installation & Setup
 
