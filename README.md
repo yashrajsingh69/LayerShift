@@ -168,7 +168,6 @@ LayerShift/
 │   ├── tests/
 │   └── requirements.txt
 │
-```text
 ├── README.md
 └── .gitignore
 ```
