@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F8F6F0"/>
+  <!-- Paper texture grid lines -->
+  <g stroke="#F2EFE8" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="0" y1="700" x2="800" y2="700"/>
+  </g>
+  <!-- Cat Body Silhouette Sketch -->
+  <g id="pencil-sketch-body" stroke="#2D2D32" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left back and hip -->
+    <path d="M 310 340 C 290 380 270 460 260 520 C 255 570 270 620 320 680"/>
+    <!-- Bottom paw baseline -->
+    <path d="M 320 680 L 480 680"/>
+    <!-- Front paws -->
+    <path d="M 360 520 L 350 680" stroke-width="3"/>
+    <path d="M 400 520 L 410 680" stroke-width="3"/>
+    <!-- Right hip & chest -->
+    <path d="M 490 340 C 510 380 530 460 530 520 C 530 570 510 620 480 680"/>
+    <!-- Curled Tail -->
+    <path d="M 500 620 C 560 620 640 600 640 560 C 640 540 580 530 540 550" stroke-width="4"/>
+  </g>
+  <!-- Cat Head & Ears -->
+  <g id="pencil-sketch-head" stroke="#2D2D32" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Chin and Jaw -->
+    <path d="M 330 240 C 330 320 470 320 470 240"/>
+    <!-- Left Ear -->
+    <path d="M 330 220 L 310 120 L 380 180"/>
+    <!-- Head crown between ears -->
+    <path d="M 380 180 L 420 180" stroke-width="3"/>
+    <!-- Right Ear -->
+    <path d="M 420 180 L 490 120 L 470 220"/>
+    <!-- Cheeks -->
+    <path d="M 330 220 C 310 260 320 290 340 320"/>
+    <path d="M 470 220 C 490 260 480 290 460 320"/>
+  </g>
+  <!-- Cat Eyes (Almond shaped) -->
+  <g id="pencil-sketch-eyes" stroke="#2D2D32" stroke-width="3" fill="none">
+    <!-- Left Eye -->
+    <path d="M 340 248 C 345 238 365 238 372 248 C 365 258 345 258 340 248 Z" fill="#FFFFFF"/>
+    <ellipse cx="356" cy="248" rx="4" ry="7" fill="#1A1A1E"/>
+    <!-- Right Eye -->
+    <path d="M 428 248 C 435 238 455 238 460 248 C 455 258 435 258 428 248 Z" fill="#FFFFFF"/>
+    <ellipse cx="444" cy="248" rx="4" ry="7" fill="#1A1A1E"/>
+  </g>
+  <!-- Cat Nose & Muzzle -->
+  <g id="pencil-sketch-muzzle" stroke="#3D3D42" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <polygon points="395,274 405,274 400,282" fill="#4A4A52"/>
+    <line x1="400" y1="282" x2="400" y2="292"/>
+    <path d="M 388 290 Q 400 300 412 290"/>
+  </g>
+  <!-- Cat Whiskers -->
+  <g id="pencil-sketch-whiskers" stroke="#222226" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- Left Whiskers -->
+    <path d="M 380 284 Q 310 278 240 268"/>
+    <path d="M 380 290 Q 300 292 230 294"/>
+    <path d="M 380 296 Q 310 310 245 322"/>
+    <!-- Right Whiskers -->
+    <path d="M 420 284 Q 490 278 560 268"/>
+    <path d="M 420 290 Q 500 292 570 294"/>
+    <path d="M 420 296 Q 490 310 555 322"/>
+  </g>
+</svg>

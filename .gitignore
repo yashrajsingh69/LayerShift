@@ -1,0 +1,62 @@
+# LayerShift - GenAI Hackathon Project
+# Files to exclude from version control
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.sqlite3
+
+# Node
+node_modules/
+/dist
+/.next
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask uploads
+/uploads/
+
+# Environment variables
+.env
+
+# Generated build files
+**/dist/
+
+# Backend uploaded files
+/backend/uploads/
+
+# Node dependencies
+**/node_modules/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test-generated files
+/backend/test_*.svg
+/backend/test_payload*.json
+/backend/acceptance_test_output.svg
+/backend/.pytest_cache/
+
+# Temporary test workspace
+/test_work/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+/PROJECTScreenshots.png
+/vis_neon.png
+/vis_grid.png
+
+/backend/vis_*.png
